@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-// https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
+// https://leetcode.com/problems/merge-two-sorted-lists/description/
 
 // ListNode list node
 type ListNode struct {
