@@ -29,17 +29,18 @@ func deleteDuplicates(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {
 		return head
 	}
-	tail := head
-	for tail != nil && tail.Next != nil {
-		if tail.Val == tail.Next.Val {
-			nextNode := tail.Next
-			tail.Next = nextNode.Next
-			nextNode.Next = nil
-			continue
+	fakeNode := &ListNode{}
+	fakeNode.Next = head
+	preNode, tail := fakeNode, head
+	for tail != nil {
+		for tail.Next != nil && tail.Next.Val == tail.Val {
+			tail = tail.Next
 		}
+		preNode.Next = tail
+		preNode = tail
 		tail = tail.Next
 	}
-	return head
+	return fakeNode.Next
 }
 
 func main() {
@@ -53,6 +54,6 @@ func main() {
 	}
 	l2 := deleteDuplicates(l1)
 	for node := l2; node != nil; node = node.Next {
-		fmt.Printf("value:%v\n", node.Val)
+		fmt.Printf("end value:%v\n", node.Val)
 	}
 }
