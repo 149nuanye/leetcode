@@ -11,6 +11,7 @@ LeetCode golang
 |033|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | array | [golang](./algorithms/033_search_in_rotated/main.go)
 |041|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | array | [golang](./algorithms/041_first_missing_positive/main.go)
 |054|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | array | [golang](./algorithms/054_spiral_matrix/main.go)
+|088|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | array | [golang](./algorithms/088_merge_sorted_array/main.go)
 |169|[Majority element](https://leetcode-cn.com/problems/majority-element/) | array | [golang](./algorithms/169_majority_element/main.go)
 
 
