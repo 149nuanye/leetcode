@@ -8,7 +8,9 @@ LeetCode golang
 |004|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | array | [golang](./algorithms/004_median_of_two_sorted_arrays/main.go)
 |015|[3Sum](https://leetcode.com/problems/3sum/) | array | [golang](./algorithms/015_3sum/main.go)
 |026|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | array | [golang](./algorithms/026_remove_duplicates/main.go)
+|033|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | array | [golang](./algorithms/033_search_in_rotated/main.go)
 |041|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | array | [golang](./algorithms/041_first_missing_positive/main.go)
+|054|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | array | [golang](./algorithms/054_spiral_matrix/main.go)
 |169|[Majority element](https://leetcode-cn.com/problems/majority-element/) | array | [golang](./algorithms/169_majority_element/main.go)
 
 
@@ -44,3 +46,10 @@ LeetCode golang
 | # | Title |  tags  | Solution  |
 |---| ----- | ---------- |---------- |
 |001|[Two Sum](https://leetcode.com/problems/two-sum/) | hash | [golang](./algorithms/001_two_sum/main.go)
+
+
+# 5. Recursive
+
+| # | Title |  tags  | Solution  |
+|---| ----- | ---------- |---------- |
+|070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Recursive | [golang](./algorithms/070_climbing_stairs/main.go)
