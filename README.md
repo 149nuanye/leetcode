@@ -4,9 +4,13 @@ LeetCode golang
 # 1. array
 | # | Title |  tags  | Solution  |
 |---| ----- | ---------- |---------- |
+
+|004|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | array | [golang](./algorithms/004_median_of_two_sorted_arrays/main.go)
 |015|[3Sum](https://leetcode.com/problems/3sum/) | array | [golang](./algorithms/015_3sum/main.go)
+|026|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | array | [golang](./algorithms/026_remove_duplicates/main.go)
 |041|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | array | [golang](./algorithms/041_first_missing_positive/main.go)
 |169|[Majority element](https://leetcode-cn.com/problems/majority-element/) | array | [golang](./algorithms/169_majority_element/main.go)
+
 
 # 2. list
 | # | Title |  tags  | Solution  |
