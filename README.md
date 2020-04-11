@@ -1,10 +1,15 @@
 LeetCode golang
 ========
 
-
+# 1. array
 | # | Title |  tags  | Solution  |
 |---| ----- | ---------- |---------- |
-|001|[Two Sum](https://leetcode.com/problems/two-sum/) | array | [golang](./algorithms/001_two_sum/main.go)
+|015|[3Sum](https://leetcode.com/problems/3sum/) | list | [golang](./algorithms/015_3sum/main.go)
+
+
+# 2. list
+| # | Title |  tags  | Solution  |
+|---| ----- | ---------- |---------- |
 |002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | list | [golang](./algorithms/002_add_two_numbers/main.go)
 |019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | list | [golang](./algorithms/019_remove_nth_node_from_end_of_list/main.go)
 |021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/) | list | [golang](./algorithms/021_merge_two_sorted_lists/main.go)
@@ -15,3 +20,22 @@ LeetCode golang
 |086|[Partition List](https://leetcode.com/problems/partition-list/description/) |  list |[golang](./algorithms/086_partition_list/main.go)
 |147|[Partition List](https://leetcode.com/problems/insertion-sort-list/description/) |  list |[golang](./algorithms/147_insertion_sort_list/main.go)
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) |  list |[golang](./algorithms/206_reverse_linked_list/main.go)
+
+# 3. stack
+
+| # | Title |  tags  | Solution  |
+|---| ----- | ---------- |---------- |
+||[](https://leetcode.com/problems/two-sum/) | stack | [golang](./algorithms/001_two_sum/main.go)
+
+
+# 4. queue
+
+| # | Title |  tags  | Solution  |
+|---| ----- | ---------- |---------- |
+||[](https://leetcode.com/problems/two-sum/) | queue | [golang](./algorithms/001_two_sum/main.go)
+
+# 5. hash
+
+| # | Title |  tags  | Solution  |
+|---| ----- | ---------- |---------- |
+|001|[Two Sum](https://leetcode.com/problems/two-sum/) | hash | [golang](./algorithms/001_two_sum/main.go)
