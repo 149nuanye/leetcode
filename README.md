@@ -5,6 +5,7 @@ LeetCode golang
 | # | Title |  tags  | Solution  |
 |---| ----- | ---------- |---------- |
 |015|[3Sum](https://leetcode.com/problems/3sum/) | list | [golang](./algorithms/015_3sum/main.go)
+|041|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | list | [golang](./algorithms/041_first_missing_positive/main.go)
 
 
 # 2. list
