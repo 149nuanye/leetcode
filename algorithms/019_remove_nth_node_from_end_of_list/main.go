@@ -24,7 +24,7 @@ func NewList(value int) *ListNode {
 	l := &ListNode{Val: value, Next: nil}
 	return l
 }
-
+// 官方解答：https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/solution/shan-chu-lian-biao-de-dao-shu-di-nge-jie-dian-by-l/
 // first get list length,then get location of the node to be deleted
 func removeNthFromEnd(head *ListNode, n int) *ListNode {
 	nodeLength := 0
@@ -54,17 +54,48 @@ func removeNthFromEnd(head *ListNode, n int) *ListNode {
 	return head
 }
 
+func removeNthFromEndOne(head *ListNode, n int) *ListNode {
+	lNode := head
+	rNode := head
+	for index := 0; index < n; index++{
+		if rNode == nil {
+			return head
+		}
+		rNode = rNode.Next
+	}
+	// 删除第一个节点
+	if rNode == nil {
+		tmp := head
+		head = head.Next
+		tmp.Next = nil 
+		return head
+	}
+	prNode := lNode
+	for rNode != nil {
+		prNode = lNode
+		lNode = lNode.Next
+		rNode = rNode.Next
+	}
+	prNode.Next = lNode.Next
+	lNode.Next = nil 
+	return head
+}
+
 func main() {
 	l1 := NewList(5)
 	l1.HeadInsert(4)
 	l1.HeadInsert(3)
 	l1.HeadInsert(2)
 	l1.HeadInsert(1)
+	fmt.Printf("value:")
 	for node := l1; node != nil; node = node.Next {
-		fmt.Printf("value:%v\n", node.Val)
+		fmt.Printf("%v\t", node.Val)
 	}
-	l2 := removeNthFromEnd(l1, 2)
+	fmt.Printf("\n")
+	l2 := removeNthFromEndOne(l1, 2)
+	fmt.Printf("value:")
 	for node := l2; node != nil; node = node.Next {
-		fmt.Printf("value:%v\n", node.Val)
+		fmt.Printf("%v\t", node.Val)
 	}
+	fmt.Printf("\n")
 }
