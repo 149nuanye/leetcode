@@ -47,8 +47,12 @@ LeetCode golang
 |---| ----- | ---------- |---------- |
 |001|[Two Sum](https://leetcode.com/problems/two-sum/) | hash | [golang](./algorithms/001_two_sum/main.go)
 
+# 6. string
+| # | Title |  tags  | Solution  |
+|---| ----- | ---------- |---------- |
+|344|[Reverse String](https://leetcode.com/problems/reverse-string/) | hash | [golang](./algorithms/344_reverse_string/main.go)
 
-# 5. Recursive
+# 7. Recursive
 
 | # | Title |  tags  | Solution  |
 |---| ----- | ---------- |---------- |
