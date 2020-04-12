@@ -50,7 +50,8 @@ LeetCode golang
 # 6. string
 | # | Title |  tags  | Solution  |
 |---| ----- | ---------- |---------- |
-|344|[Reverse String](https://leetcode.com/problems/reverse-string/) | hash | [golang](./algorithms/344_reverse_string/main.go)
+|151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | string | [golang](./algorithms/151_reverse_words/main.go)
+|344|[Reverse String](https://leetcode.com/problems/reverse-string/) | string | [golang](./algorithms/344_reverse_string/main.go)
 
 # 7. Recursive
 
