@@ -39,7 +39,7 @@ LeetCode golang
 
 | # | Title |  tags  | Solution  |
 |---| ----- | ---------- |---------- |
-||[007](https://leetcode-cn.com/problems/reverse-integer/) | queue | [golang](./algorithms/007_reverse_integer/main.go)
+|007|[Reverse Integer](https://leetcode-cn.com/problems/reverse-integer/) | queue | [golang](./algorithms/007_reverse_integer/main.go)
 
 # 5. hash
 
@@ -50,6 +50,7 @@ LeetCode golang
 # 6. string
 | # | Title |  tags  | Solution  |
 |---| ----- | ---------- |---------- |
+|008|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | string | [golang](./algorithms/008_string_to_integer_atoi/main.go)
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | string | [golang](./algorithms/151_reverse_words/main.go)
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/) | string | [golang](./algorithms/344_reverse_string/main.go)
 
