@@ -4,7 +4,6 @@ LeetCode golang
 # 1. array
 | # | Title |  tags  | Solution  |
 |---| ----- | ---------- |---------- |
-
 |004|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | array | [golang](./algorithms/004_median_of_two_sorted_arrays/main.go)
 |015|[3Sum](https://leetcode.com/problems/3sum/) | array | [golang](./algorithms/015_3sum/main.go)
 |026|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | array | [golang](./algorithms/026_remove_duplicates/main.go)
@@ -26,7 +25,7 @@ LeetCode golang
 |082|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) |  list |[golang](./algorithms/082_remove_duplicates_from_sorted_list_II/main.go)
 |083|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/) |  list |[golang](./algorithms/083_remove_duplicates_from_sorted_list/main.go)
 |086|[Partition List](https://leetcode.com/problems/partition-list/description/) |  list |[golang](./algorithms/086_partition_list/main.go)
-|147|[Partition List](https://leetcode.com/problems/insertion-sort-list/description/) |  list |[golang](./algorithms/147_insertion_sort_list/main.go)
+|147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/) |  list |[golang](./algorithms/147_insertion_sort_list/main.go)
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) |  list |[golang](./algorithms/206_reverse_linked_list/main.go)
 
 # 3. stack
