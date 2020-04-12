@@ -26,14 +26,13 @@ func NewList(value int) *ListNode {
 }
 
 // first get list length,then get location of the node to be deleted
-func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
+func mergeTwoListsNew(l1 *ListNode, l2 *ListNode) *ListNode {
 	var l3, l3Tail *ListNode
-	fmt.Println(l3)
 	head1 := l1
 	head2 := l2
 	for head1 != nil || head2 != nil {
 		var node *ListNode
-		if head1 == nil {
+		if head1 == nil  {
 			node = &ListNode{Val: head2.Val, Next: nil}
 			head2 = head2.Next
 		} else if head2 == nil {
@@ -44,6 +43,43 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 			head1 = head1.Next
 		} else {
 			node = &ListNode{Val: head2.Val, Next: nil}
+			head2 = head2.Next
+		}
+		if l3 == nil {
+			l3 = node
+			l3Tail = l3
+			continue
+		}
+		l3Tail.Next = node
+		l3Tail = node
+	}
+	return l3
+}
+
+// first get list length,then get location of the node to be deleted
+func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
+	var l3, l3Tail *ListNode
+	head1 := l1
+	head2 := l2
+	for head1 != nil || head2 != nil {
+		var node *ListNode
+		if head1 == nil  {
+			if l3 == nil{
+				return head2
+			} 
+			l3Tail.Next = head2
+			break	
+		} else if head2 == nil {
+			if l3 == nil{
+				return head1
+			} 
+			l3Tail.Next = head1
+			break
+		} else if head1.Val < head2.Val {
+			node = head1
+			head1 = head1.Next
+		} else {
+			node = head2
 			head2 = head2.Next
 		}
 		if l3 == nil {
