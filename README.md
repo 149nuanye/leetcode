@@ -25,6 +25,7 @@ LeetCode golang
 |082|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) |  list |[golang](./algorithms/082_remove_duplicates_from_sorted_list_II/main.go)
 |083|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/) |  list |[golang](./algorithms/083_remove_duplicates_from_sorted_list/main.go)
 |086|[Partition List](https://leetcode.com/problems/partition-list/description/) |  list |[golang](./algorithms/086_partition_list/main.go)
+|141|[Linked list Cycle](https://leetcode-cn.com/problems/linked-list-cycle/) |  list |[golang](./algorithms/141_linked_list_cycle/main.go)
 |147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/) |  list |[golang](./algorithms/147_insertion_sort_list/main.go)
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) |  list |[golang](./algorithms/206_reverse_linked_list/main.go)
 
