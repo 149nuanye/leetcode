@@ -39,7 +39,7 @@ LeetCode golang
 
 | # | Title |  tags  | Solution  |
 |---| ----- | ---------- |---------- |
-|007|[Reverse Integer](https://leetcode-cn.com/problems/reverse-integer/) | queue | [golang](./algorithms/007_reverse_integer/main.go)
+|239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | queue | [golang](./algorithms/239_sliding_window_maximum/main.go)
 
 # 5. hash
 
