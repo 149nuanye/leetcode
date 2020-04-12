@@ -12,12 +12,6 @@ type ListNode struct {
 	Next *ListNode
 }
 
-//HeadInsert insert value in list head
-func (l *ListNode) HeadInsert(value int) {
-	node := &ListNode{Val: value, Next: l.Next}
-	l.Next = node
-}
-
 //NewList new a list
 func NewList(value int) *ListNode {
 	l := &ListNode{Val: value, Next: nil}
@@ -25,39 +19,45 @@ func NewList(value int) *ListNode {
 }
 
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
-	var l, tailNode *ListNode
-	l1Node := l1
-	l2Node := l2
-	var carry int
-	nodeNum := 0
-	for l1Node != nil || l2Node != nil {
-		var x, y int
-		if l1Node != nil {
-			x = l1Node.Val
-			l1Node = l1Node.Next
+	carry :=0
+	var newList *ListNode
+	var resultList *ListNode
+	for(l1!=nil&&l2!=nil){
+		tmpVal := (l1.Val + l2.Val+carry)%10 
+		carry = (l1.Val + l2.Val+carry)/10 
+		newNode := ListNode{Val: tmpVal, Next: nil}
+		if newList == nil{
+			newList = &newNode
+			resultList = newList 
+		} else {
+			newList.Next = &newNode
+			newList=&newNode
 		}
-		if l2Node != nil {
-			y = l2Node.Val
-			l2Node = l2Node.Next
-		}
-		value := (x + y + carry) % 10
-		carry = (x + y + carry) / 10
-		nodeNum++
-		if nodeNum == 1 {
-			tailNode = &ListNode{Val: value, Next: nil}
-			l = tailNode
-			continue
-		}
-		tempNode := &ListNode{Val: value, Next: nil}
-		tailNode.Next = tempNode
-		tailNode = tempNode
+		l1 = l1.Next
+		l2 = l2.Next
 	}
-	if carry != 0 {
-		tempNode := &ListNode{Val: carry, Next: nil}
-		tailNode.Next = tempNode
-		tailNode = tempNode
+	for (l1 != nil){
+		tmpVal := (l1.Val + carry)%10 
+		carry = (l1.Val + carry)/10 
+		newNode:=ListNode{Val: tmpVal, Next: nil}
+		newList.Next = &newNode
+		newList = &newNode
+		l1 = l1.Next
 	}
-	return l
+	for (l2!= nil){
+		tmpVal := (l2.Val + carry)%10 
+		carry = (l2.Val + carry)/10 
+		newNode:=ListNode{Val: tmpVal, Next: nil}
+		newList.Next = &newNode
+		newList = &newNode
+		l2 = l2.Next
+	}
+	if carry > 0 {
+		newNode:=ListNode{Val: carry, Next: nil}
+		newList.Next = &newNode
+		newList = &newNode
+	}
+	return resultList 
 }
 
 func main() {
