@@ -39,7 +39,7 @@ LeetCode golang
 
 | # | Title |  tags  | Solution  |
 |---| ----- | ---------- |---------- |
-||[](https://leetcode.com/problems/two-sum/) | queue | [golang](./algorithms/001_two_sum/main.go)
+||[007](https://leetcode-cn.com/problems/reverse-integer/) | queue | [golang](./algorithms/007_reverse_integer/main.go)
 
 # 5. hash
 
