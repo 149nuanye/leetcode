@@ -32,7 +32,7 @@ LeetCode golang
 
 | # | Title |  tags  | Solution  |
 |---| ----- | ---------- |---------- |
-||[](https://leetcode.com/problems/two-sum/) | stack | [golang](./algorithms/001_two_sum/main.go)
+|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | stack | [golang](./algorithms/020_valid_parentheses/main.go)
 
 
 # 4. queue
