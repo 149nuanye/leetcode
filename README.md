@@ -67,4 +67,10 @@ LeetCode golang
 
 | # | Title |  tags  | Solution  |
 |---| ----- | ---------- |---------- |
-|069|[sqrtx](https://leetcode.com/problems/sqrtx/) | Recursive | [golang](./algorithms/069_sqrtx/main.go)
+|069|[sqrtx](https://leetcode.com/problems/sqrtx/) | Binary Search | [golang](./algorithms/069_sqrtx/main.go)
+
+# 9. Math
+
+| # | Title |  tags  | Solution  |
+|---| ----- | ---------- |---------- |
+|009|[Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Math | [golang](./algorithms/009_palindrome_number/main.go)
