@@ -61,3 +61,10 @@ LeetCode golang
 | # | Title |  tags  | Solution  |
 |---| ----- | ---------- |---------- |
 |070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Recursive | [golang](./algorithms/070_climbing_stairs/main.go)
+
+
+# 8. Binary Search
+
+| # | Title |  tags  | Solution  |
+|---| ----- | ---------- |---------- |
+|069|[sqrtx](https://leetcode.com/problems/sqrtx/) | Recursive | [golang](./algorithms/069_sqrtx/main.go)
