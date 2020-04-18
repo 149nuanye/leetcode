@@ -34,6 +34,7 @@ LeetCode golang
 | # | Title |  tags  | Solution  |
 |---| ----- | ---------- |---------- |
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | stack | [golang](./algorithms/020_valid_parentheses/main.go)
+|150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | stack | [golang](./algorithms/150_evaluate_reverse_polish_notation/main.go)
 
 
 # 4. queue
@@ -61,8 +62,10 @@ LeetCode golang
 | # | Title |  tags  | Solution  |
 |---| ----- | ---------- |---------- |
 |005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Dynamic Programming | [golang](./algorithms/005_longest_palindromic_substring/main.go)
+|032|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | Dynamic Programming | [golang](./algorithms/032_longest_valid_parentheses/main.go)
 |053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Dynamic Programming | [golang](./algorithms/053_maximum_subarray/main.go)
 |070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Dynamic Programming | [golang](./algorithms/070_climbing_stairs/main.go)
+
 
 
 # 8. Binary Search
