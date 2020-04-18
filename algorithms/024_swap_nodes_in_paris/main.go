@@ -26,27 +26,23 @@ func NewList(value int) *ListNode {
 }
 
 func swapPairs(head *ListNode) *ListNode {
-	var pre, pre2 *ListNode
-	tail := head
-	nodeNum := 1
-	for ; tail != nil; tail = tail.Next {
-		if nodeNum%2 == 0 {
-			if pre2 == nil {
-				pre.Next = tail.Next
-				tail.Next = pre
-				head = tail
-			} else {
-				pre.Next = tail.Next
-				pre2.Next = tail
-				tail.Next = pre
-			}
-			temp := tail
-			tail = pre
-			pre = temp
+	lnode := head
+	var preNode *ListNode
+	for lnode != nil {
+		if lnode.Next == nil {
+			break
 		}
-		pre2 = pre
-		pre = tail
-		nodeNum++
+		tmp:= lnode.Next
+		lnode.Next = tmp.Next
+		tmp.Next = lnode
+		if lnode == head{
+			head = tmp
+		}
+		if preNode != nil {
+			preNode.Next = tmp
+		}
+		preNode = lnode
+		lnode = lnode.Next
 	}
 	return head
 }
@@ -58,10 +54,12 @@ func main() {
 	l1.HeadInsert(2)
 	l1.HeadInsert(1)
 	for node := l1; node != nil; node = node.Next {
-		fmt.Printf("value:%v\n", node.Val)
+		fmt.Printf("value:%d\t", node.Val)
 	}
+	fmt.Printf("\n")
 	l2 := swapPairs(l1)
 	for node := l2; node != nil; node = node.Next {
-		fmt.Printf("value:%v\n", node.Val)
+		fmt.Printf("value:%d\t", node.Val)
 	}
+	fmt.Printf("\n")
 }
