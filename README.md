@@ -60,7 +60,7 @@ LeetCode golang
 
 | # | Title |  tags  | Solution  |
 |---| ----- | ---------- |---------- |
-|005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Dynamic Programming | [golang](./algorithms/007_longest_palindromic_substring/main.go)
+|005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Dynamic Programming | [golang](./algorithms/005_longest_palindromic_substring/main.go)
 |053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Dynamic Programming | [golang](./algorithms/053_maximum_subarray/main.go)
 |070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Dynamic Programming | [golang](./algorithms/070_climbing_stairs/main.go)
 
