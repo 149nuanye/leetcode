@@ -56,11 +56,13 @@ LeetCode golang
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/) | string | [golang](./algorithms/344_reverse_string/main.go)
 |415|[Add Strings](https://leetcode.com/problems/add-strings/) | string | [golang](./algorithms/415_add_strings/main.go)
 
-# 7. Recursive
+# 7. Dynamic Programming
 
 | # | Title |  tags  | Solution  |
 |---| ----- | ---------- |---------- |
-|070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Recursive | [golang](./algorithms/070_climbing_stairs/main.go)
+|005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Dynamic Programming | [golang](./algorithms/007_longest_palindromic_substring/main.go)
+|053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Dynamic Programming | [golang](./algorithms/053_maximum_subarray/main.go)
+|070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Dynamic Programming | [golang](./algorithms/070_climbing_stairs/main.go)
 
 
 # 8. Binary Search
