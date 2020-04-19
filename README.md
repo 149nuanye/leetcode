@@ -9,13 +9,12 @@ LeetCode golang
 |026|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | array | [golang](./algorithms/026_remove_duplicates/main.go)
 |033|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | array | [golang](./algorithms/033_search_in_rotated/main.go)
 |041|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | array | [golang](./algorithms/041_first_missing_positive/main.go)
+|046|[Permutations](https://leetcode.com/problems/permutations/) | array | [golang](./algorithms/046_permutations/main.go)
 |054|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | array | [golang](./algorithms/054_spiral_matrix/main.go)
+|074|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | array | [golang](./algorithms/074_search_a_2D_Matrix/main.go)
 |078|[Subsets](https://leetcode.com/problems/subsets/) | Backtracking | [golang](./algorithms/078_subsets/main.go)
 |088|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | array | [golang](./algorithms/088_merge_sorted_array/main.go)
 |169|[Majority element](https://leetcode-cn.com/problems/majority-element/) | array | [golang](./algorithms/169_majority_element/main.go)
-
-
-
 
 # 2. list
 | # | Title |  tags  | Solution  |
