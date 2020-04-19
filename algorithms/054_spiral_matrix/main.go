@@ -9,28 +9,26 @@ func spiralOrder(matrix [][]int) []int {
 	}
 	n := len(matrix)
 	m := len(matrix[0])
-	order := make([]int, 0,n*m)
+	order := make([]int, 0, n*m)
 	nindex := 0
 	mindex := 0
 	for nindex < n && mindex < m {
-		for i := mindex;i < m;i++{
+		for i := mindex; i < m; i++ {
 			order = append(order, matrix[nindex][i])
 		}
-		for j:=nindex+1;j<n;j++{
+		for j := nindex + 1; j < n; j++ {
 			order = append(order, matrix[j][m-1])
 		}
-		if n - nindex > 1{
-			for i:=m-2;i>=mindex;i--{
+		if n-nindex > 1 {
+			for i := m - 2; i >= mindex; i-- {
 				order = append(order, matrix[n-1][i])
 			}
 		}
-		if m -mindex > 1{
-			for j:=n-2;j>nindex;j--{
+		if m-mindex > 1 {
+			for j := n - 2; j > nindex; j-- {
 				order = append(order, matrix[j][mindex])
 			}
 		}
-		// fmt.Printf("nindex:%d,mindex:%d,n:%d,m:%d,order:%+v\n", 
-		// nindex,mindex,n,m,order)
 		nindex++
 		mindex++
 		m--
