@@ -60,6 +60,7 @@ LeetCode golang
 | # | Title |  tags  | Solution  |
 |---| ----- | ---------- |---------- |
 |100|[Same Tree](https://leetcode.com/problems/same-tree/) | tree | [golang](./algorithms/100_same_tree/main.go)
+|101|[Same Tree](https://leetcode.com/problems/symmetric-tree/) | tree | [golang](./algorithms/101_symmetric_tree/main.go)
 
 
 # 8. Dynamic Programming
