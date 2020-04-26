@@ -60,7 +60,8 @@ LeetCode golang
 | # | Title |  tags  | Solution  |
 |---| ----- | ---------- |---------- |
 |100|[Same Tree](https://leetcode.com/problems/same-tree/) | tree | [golang](./algorithms/100_same_tree/main.go)
-|101|[Same Tree](https://leetcode.com/problems/symmetric-tree/) | tree | [golang](./algorithms/101_symmetric_tree/main.go)
+|101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | tree | [golang](./algorithms/101_symmetric_tree/main.go)
+|104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | tree | [golang](./algorithms/104_maximum_depth_of_binary_tree/main.go)
 
 
 # 8. Dynamic Programming
