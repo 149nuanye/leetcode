@@ -12,7 +12,7 @@ LeetCode golang
 |046|[Permutations](https://leetcode.com/problems/permutations/) | array | [golang](./algorithms/046_permutations/main.go)
 |054|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | array | [golang](./algorithms/054_spiral_matrix/main.go)
 |074|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | array | [golang](./algorithms/074_search_a_2D_Matrix/main.go)
-|078|[Subsets](https://leetcode.com/problems/subsets/) | Backtracking | [golang](./algorithms/078_subsets/main.go)
+|078|[Subsets](https://leetcode.com/problems/subsets/) | array | [golang](./algorithms/078_subsets/main.go)
 |088|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | array | [golang](./algorithms/088_merge_sorted_array/main.go)
 |169|[Majority element](https://leetcode-cn.com/problems/majority-element/) | array | [golang](./algorithms/169_majority_element/main.go)
 
@@ -32,21 +32,17 @@ LeetCode golang
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) |  list |[golang](./algorithms/206_reverse_linked_list/main.go)
 
 # 3. stack
-
 | # | Title |  tags  | Solution  |
 |---| ----- | ---------- |---------- |
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | stack | [golang](./algorithms/020_valid_parentheses/main.go)
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | stack | [golang](./algorithms/150_evaluate_reverse_polish_notation/main.go)
 
-
 # 4. queue
-
 | # | Title |  tags  | Solution  |
 |---| ----- | ---------- |---------- |
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | queue | [golang](./algorithms/239_sliding_window_maximum/main.go)
 
 # 5. hash
-
 | # | Title |  tags  | Solution  |
 |---| ----- | ---------- |---------- |
 |001|[Two Sum](https://leetcode.com/problems/two-sum/) | hash | [golang](./algorithms/001_two_sum/main.go)
@@ -60,8 +56,13 @@ LeetCode golang
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/) | string | [golang](./algorithms/344_reverse_string/main.go)
 |415|[Add Strings](https://leetcode.com/problems/add-strings/) | string | [golang](./algorithms/415_add_strings/main.go)
 
-# 7. Dynamic Programming
+# 7. tree
+| # | Title |  tags  | Solution  |
+|---| ----- | ---------- |---------- |
+|100|[Same Tree](https://leetcode.com/problems/same-tree/) | tree | [golang](./algorithms/100_same_tree/main.go)
 
+
+# 8. Dynamic Programming
 | # | Title |  tags  | Solution  |
 |---| ----- | ---------- |---------- |
 |005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Dynamic Programming | [golang](./algorithms/005_longest_palindromic_substring/main.go)
@@ -69,16 +70,12 @@ LeetCode golang
 |053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Dynamic Programming | [golang](./algorithms/053_maximum_subarray/main.go)
 |070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Dynamic Programming | [golang](./algorithms/070_climbing_stairs/main.go)
 
-
-
-# 8. Binary Search
-
+# 9. Binary Search
 | # | Title |  tags  | Solution  |
 |---| ----- | ---------- |---------- |
 |069|[sqrtx](https://leetcode.com/problems/sqrtx/) | Binary Search | [golang](./algorithms/069_sqrtx/main.go)
 
-# 9. Math
-
+# 10. Math
 | # | Title |  tags  | Solution  |
 |---| ----- | ---------- |---------- |
 |009|[Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Math | [golang](./algorithms/009_palindrome_number/main.go)
