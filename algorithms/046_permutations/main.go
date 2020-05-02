@@ -1,38 +1,47 @@
 package main
 
 import "fmt"
+
+// 全排列问题，比如打印1-9的共9个字母的全排列。先输出1，
+// 然后是2-9的全排列，输出2，然后1-9中去除2的全排列。
+// 于是很自然想到递归的方法。写出伪代码：
+// permutaion(prefix, set) {
+//     if set 为空
+//         print prefix
+
+//     for s in set:
+//         permuetaion(prefix+s, set - s)
+// }
 // https://studygolang.com/articles/19971
-func permuteImp(preNums,nums []int,per *[][]int){
+func permuteImp(preNums, nums []int, per *[][]int) {
 	if preNums == nil {
-		preNums = make([]int,0,len(nums))
+		preNums = make([]int, 0, len(nums))
 	}
-	if len(nums)==1{
-		tmp := make([]int,len(preNums)+1)
-		copy(tmp,preNums)
+	if len(nums) == 1 {
+		tmp := make([]int, len(preNums)+1)
+		copy(tmp, preNums)
 		tmp[len(preNums)] = nums[0]
-		*per = append(*per,tmp)
-		return 
+		*per = append(*per, tmp)
+		return
 	}
-	for index := 0;index<len(nums);index++ {
-		tmp:=make([]int,0,len(nums)-2)
-		if index > 0{
-			tmp = append(tmp,nums[:index]...)
-		} 
-		if index < len(nums)-1{
-			tmp = append(tmp,nums[index+1:]...)
+	for index := 0; index < len(nums); index++ {
+		tmp := make([]int, 0, len(nums)-1)
+		if index > 0 {
+			tmp = append(tmp, nums[:index]...)
 		}
-		preNums = append(preNums,nums[index])
-		// fmt.Printf("index:%d,nums:%+v,tmp:%+v,preNums:%+v\n", index, nums,tmp,preNums)
-		permuteImp(preNums,tmp,per)
+		if index < len(nums)-1 {
+			tmp = append(tmp, nums[index+1:]...)
+		}
+		preNums = append(preNums, nums[index])
+		permuteImp(preNums, tmp, per)
 		preNums = preNums[:len(preNums)-1]
-		// fmt.Printf("end index:%d,nums:%+v,tmp:%+v,preNums:%+v\n", index, nums,tmp,preNums)
 	}
 }
 
 func permute(nums []int) [][]int {
-	length := len(nums) 
-	per := make([][]int,0,length*(length-1)+1)
-	permuteImp(nil,nums,&per)
+	length := len(nums)
+	per := make([][]int, 0, length*(length-1)+1)
+	permuteImp(nil, nums, &per)
 	return per
 }
 
