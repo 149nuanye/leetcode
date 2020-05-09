@@ -27,26 +27,40 @@ func partition(head *ListNode, x int) *ListNode {
 	if head == nil {
 		return head
 	}
-	fakeHead := &ListNode{}
-	tailNode := fakeHead
-
-	rightHead := &ListNode{}
-	rightCur := rightHead
-
+	var lHead, rhead *ListNode
+	var lCur, rCur *ListNode
 	curNode := head
 	for curNode != nil {
-		if curNode.Val < x {
-			tailNode.Next = curNode
-			tailNode = curNode
-		} else {
-			rightCur.Next = curNode
-			rightCur = curNode
+		tmp := curNode.Next
+		if curNode.Val >= x {
+			curNode.Next = nil
+			if rhead == nil {
+				rhead = curNode
+				rCur = curNode
+			} else {
+				rCur.Next = curNode
+				rCur = curNode
+			}
+			curNode = tmp
+			continue
 		}
-		curNode = curNode.Next
+
+		if lHead == nil {
+			lHead = curNode
+			lCur = curNode
+		} else {
+			lCur.Next = curNode
+			lCur = curNode
+		}
+		curNode = tmp
 	}
-	rightCur.Next = nil
-	tailNode.Next = rightHead.Next
-	return fakeHead.Next
+	if lHead == nil {
+		return rhead
+	}
+	if rhead != nil {
+		lCur.Next = rhead
+	}
+	return lHead
 }
 
 func main() {
@@ -59,7 +73,7 @@ func main() {
 	for node := l1; node != nil; node = node.Next {
 		fmt.Printf("value:%v\n", node.Val)
 	}
-	l2 := partition(l1, 3)
+	l2 := partitionDemo(l1, 3)
 	for node := l2; node != nil; node = node.Next {
 		fmt.Printf("end value:%v\n", node.Val)
 	}

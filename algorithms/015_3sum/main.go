@@ -10,7 +10,7 @@ func threeSum(nums []int) [][]int {
 	sort.Ints(nums)
 	for index := 0; index < len(nums); index++ {
 		if nums[index] > 0 {
-			continue
+			break
 		}
 		if index > 0 && nums[index] == nums[index-1] {
 			continue

@@ -6,7 +6,6 @@ func removeDuplicates(nums []int) int {
 	if len(nums) <= 1 {
 		return len(nums)
 	}
-	newLength := 1
 	value := nums[0]
 	lindex := 0
 	for rindex := 1; rindex < len(nums); rindex++ {
@@ -16,11 +15,10 @@ func removeDuplicates(nums []int) int {
 			value = nums[rindex]
 			lindex++
 			nums[lindex] = nums[rindex]
-			newLength++
 		}
 	}
-	nums = nums[:newLength]
-	return newLength
+	nums = nums[:lindex+1]
+	return lindex + 1
 }
 
 func main() {
