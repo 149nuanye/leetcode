@@ -14,7 +14,9 @@ LeetCode golang
 |074|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | array | [golang](./algorithms/074_search_a_2D_Matrix/main.go)
 |078|[Subsets](https://leetcode.com/problems/subsets/) | array | [golang](./algorithms/078_subsets/main.go)
 |088|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | array | [golang](./algorithms/088_merge_sorted_array/main.go)| easy
+|118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | array | [golang](./algorithms/118_pascals_triangle/main.go)| easy
 |169|[Majority element](https://leetcode-cn.com/problems/majority-element/) | array | [golang](./algorithms/169_majority_element/main.go)|easy
+|283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/) | array | [golang](./algorithms/283_move_zeroes/main.go)|easy
 
 # 2. list
 | # | Title |  tags  | Solution  | Difficulty  |
@@ -29,7 +31,7 @@ LeetCode golang
 |086|[Partition List](https://leetcode.com/problems/partition-list/description/) |  list |[golang](./algorithms/086_partition_list/main.go)
 |141|[Linked list Cycle](https://leetcode-cn.com/problems/linked-list-cycle/) |  list |[golang](./algorithms/141_linked_list_cycle/main.go)| easy
 |147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/) |  list |[golang](./algorithms/147_insertion_sort_list/main.go)
-|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) |  list |[golang](./algorithms/206_reverse_linked_list/main.go) |easy
+|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | list |[golang](./algorithms/206_reverse_linked_list/main.go) |easy
 
 # 3. stack
 | # | Title |  tags  | Solution  | Difficulty  |
@@ -80,5 +82,9 @@ LeetCode golang
 # 10. Math
 | # | Title |  tags  | Solution  |Difficulty  |
 |---| ----- | ---------- |---------- |---------- |
+|007|[Reverse Integerr](https://leetcode.com/problems/reverse-integer/) | Math | [golang](./algorithms/007_reverse_integer/main.go)|easy
 |009|[Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Math | [golang](./algorithms/009_palindrome_number/main.go)|easy
+|136|[Single Number](https://leetcode.com/problems/single-number/) | Math | [golang](./algorithms/136_single_number/main.go)|easy
+|172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | Math | [golang](./algorithms/172_factorial_trailing_zeroes/main.go)|easy
+|202|[Happy Number](https://leetcode.com/problems/happy-number/) | Math | [golang](./algorithms/202_happy_number/main.go)|easy
 |204|[Count Primes](https://leetcode.com/problems/count-primes/) | Math | [golang](./algorithms/204_count_primes/main.go)|easy
