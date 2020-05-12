@@ -40,6 +40,7 @@ LeetCode golang
 |---| ----- | ---------- |---------- |---------- |
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | stack | [golang](./algorithms/020_valid_parentheses/main.go) | easy
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | stack | [golang](./algorithms/150_evaluate_reverse_polish_notation/main.go)
+|155|[Min Stack](https://leetcode.com/problems/min-stack/) | stack | [golang](./algorithms/155_min_stack/main.go)|easy
 
 # 4. queue
 | # | Title |  tags  | Solution  |Difficulty  |
