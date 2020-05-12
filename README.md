@@ -16,6 +16,7 @@ LeetCode golang
 |088|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | array | [golang](./algorithms/088_merge_sorted_array/main.go)| easy
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | array | [golang](./algorithms/118_pascals_triangle/main.go)| easy
 |169|[Majority element](https://leetcode-cn.com/problems/majority-element/) | array | [golang](./algorithms/169_majority_element/main.go)|easy
+|189|[Rotate Array](https://leetcode.com/problems/rotate-array/) | array | [golang](./algorithms/189_rotate_array/main.go)|easy
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/) | array | [golang](./algorithms/283_move_zeroes/main.go)|easy
 
 # 2. list
@@ -55,17 +56,19 @@ LeetCode golang
 |---| ----- | ---------- |---------- |---------- |
 |008|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | string | [golang](./algorithms/008_string_to_integer_atoi/main.go)|Medium
 |014|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | string | [golang](./algorithms/014_longest_common_prefix/main.go) | easy
-|151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | string | [golang](./algorithms/151_reverse_words/main.go)
+|151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | string | [golang](./algorithms/151_reverse_words/main.go)| Medium
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/) | string | [golang](./algorithms/344_reverse_string/main.go)| easy
-|415|[Add Strings](https://leetcode.com/problems/add-strings/) | string | [golang](./algorithms/415_add_strings/main.go)
+|415|[Add Strings](https://leetcode.com/problems/add-strings/) | string | [golang](./algorithms/415_add_strings/main.go)|Easy
+
 
 # 7. tree
 | # | Title |  tags  | Solution  |Difficulty  |
 |---| ----- | ---------- |---------- |---------- |
-|100|[Same Tree](https://leetcode.com/problems/same-tree/) | tree | [golang](./algorithms/100_same_tree/main.go)
-|101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | tree | [golang](./algorithms/101_symmetric_tree/main.go)
-|104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | tree | [golang](./algorithms/104_maximum_depth_of_binary_tree/main.go)
-
+|100|[Same Tree](https://leetcode.com/problems/same-tree/) | tree | [golang](./algorithms/100_same_tree/main.go)| easy
+|101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | tree | [golang](./algorithms/101_symmetric_tree/main.go)| easy
+|104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | tree | [golang](./algorithms/104_maximum_depth_of_binary_tree/main.go)| easy
+|105|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | tree/BFS | [golang](./algorithms/105_minimum_depth_of_binary_tree/main.go)| easy
+|236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | BFS | [golang](./algorithms/236_lowest_common_ancestor_of_a_binary_tree/main.go)| easy
 
 # 8. Dynamic Programming
 | # | Title |  tags  | Solution  |Difficulty  |
@@ -90,3 +93,12 @@ LeetCode golang
 |172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | Math | [golang](./algorithms/172_factorial_trailing_zeroes/main.go)|easy
 |202|[Happy Number](https://leetcode.com/problems/happy-number/) | Math | [golang](./algorithms/202_happy_number/main.go)|easy
 |204|[Count Primes](https://leetcode.com/problems/count-primes/) | Math | [golang](./algorithms/204_count_primes/main.go)|easy
+
+# 11. Depth First Search
+| # | Title |  tags  | Solution  |Difficulty  |
+|---| ----- | ---------- |---------- |---------- |
+
+
+# 11. Breadth First Search
+| # | Title |  tags  | Solution  |Difficulty  |
+|---| ----- | ---------- |---------- |---------- |
