@@ -25,72 +25,62 @@ func NewList(value int) *ListNode {
 	return l
 }
 
-// first get list length,then get location of the node to be deleted
+//递归
 func mergeTwoListsNew(l1 *ListNode, l2 *ListNode) *ListNode {
-	var l3, l3Tail *ListNode
-	head1 := l1
-	head2 := l2
-	for head1 != nil || head2 != nil {
-		var node *ListNode
-		if head1 == nil  {
-			node = &ListNode{Val: head2.Val, Next: nil}
-			head2 = head2.Next
-		} else if head2 == nil {
-			node = &ListNode{Val: head1.Val, Next: nil}
-			head1 = head1.Next
-		} else if head1.Val < head2.Val {
-			node = &ListNode{Val: head1.Val, Next: nil}
-			head1 = head1.Next
-		} else {
-			node = &ListNode{Val: head2.Val, Next: nil}
-			head2 = head2.Next
-		}
-		if l3 == nil {
-			l3 = node
-			l3Tail = l3
-			continue
-		}
-		l3Tail.Next = node
-		l3Tail = node
+	if l1 == nil {
+		return l2
+	} else if l2 == nil {
+		return l1
 	}
-	return l3
+	var node *ListNode
+	if l1.Val > l2.Val {
+		node = l2
+		node.Next = mergeTwoListsNew(l1, l2.Next)
+	} else {
+		node = l1
+		node.Next = mergeTwoListsNew(l1.Next, l2)
+	}
+	return node
 }
 
-// first get list length,then get location of the node to be deleted
+//循环
 func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
-	var l3, l3Tail *ListNode
-	head1 := l1
-	head2 := l2
-	for head1 != nil || head2 != nil {
-		var node *ListNode
-		if head1 == nil  {
-			if l3 == nil{
-				return head2
-			} 
-			l3Tail.Next = head2
-			break	
-		} else if head2 == nil {
-			if l3 == nil{
-				return head1
-			} 
-			l3Tail.Next = head1
-			break
-		} else if head1.Val < head2.Val {
-			node = head1
-			head1 = head1.Next
-		} else {
-			node = head2
-			head2 = head2.Next
-		}
-		if l3 == nil {
-			l3 = node
-			l3Tail = l3
-			continue
-		}
-		l3Tail.Next = node
-		l3Tail = node
+	if l1 == nil {
+		return l2
+	} else if l2 == nil {
+		return l1
 	}
-	return l3
+	var head, tail *ListNode
+	node1 := l1
+	node2 := l2
+	for node1 != nil && node2 != nil {
+		if node1.Val > node2.Val {
+			if head == nil {
+				head = node2
+				tail = node2
+			} else {
+				tail.Next = node2
+				tail = node2
+			}
+			node2 = node2.Next
+		} else {
+			if head == nil {
+				head = node1
+				tail = node1
+			} else {
+				tail.Next = node1
+				tail = node1
+			}
+			node1 = node1.Next
+		}
+	}
+	if node1 != nil {
+		tail.Next = node1
+	}
+	if node2 != nil {
+		tail.Next = node2
+	}
+	return head
 }
 
 func main() {
@@ -100,12 +90,12 @@ func main() {
 	l1.HeadInsert(2)
 	l1.HeadInsert(1)
 	for node := l1; node != nil; node = node.Next {
-		fmt.Printf("value:%v\n", node.Val)
+		fmt.Printf("node1 value:%v\n", node.Val)
 	}
 	l2 := NewList(5)
 	l2.HeadInsert(4)
-	l3 := mergeTwoLists(l1, l2)
+	l3 := mergeTwoListsNew(l1, l2)
 	for node := l3; node != nil; node = node.Next {
-		fmt.Printf("value:%v\n", node.Val)
+		fmt.Printf("merger value:%v\n", node.Val)
 	}
 }
