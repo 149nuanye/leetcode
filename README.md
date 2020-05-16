@@ -31,7 +31,8 @@ LeetCode golang
 |083|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/) |  list |[golang](./algorithms/083_remove_duplicates_from_sorted_list/main.go)|Easy
 |086|[Partition List](https://leetcode.com/problems/partition-list/description/) |  list |[golang](./algorithms/086_partition_list/main.go)|medium
 |141|[Linked list Cycle](https://leetcode-cn.com/problems/linked-list-cycle/) |  list |[golang](./algorithms/141_linked_list_cycle/main.go)| easy
-|147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/) |  list |[golang](./algorithms/147_insertion_sort_list/main.go)|medium
+|147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/) |  list |[golang](./algorithms/147_insertion_sort_list/main.go)| medium
+|148|[Sort List](https://leetcode.com/problems/sort-list/) |  list |[golang](./algorithms/148_sort_list/main.go)| medium
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) |  list |[golang](./algorithms/160_intersection_of_two_linked_lists/main.go)|easy
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | list |[golang](./algorithms/206_reverse_linked_list/main.go) |easy
 
