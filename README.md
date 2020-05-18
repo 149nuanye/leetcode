@@ -15,7 +15,8 @@ LeetCode golang
 |078|[Subsets](https://leetcode.com/problems/subsets/) | array | [golang](./algorithms/078_subsets/main.go)|medium
 |088|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | array | [golang](./algorithms/088_merge_sorted_array/main.go)| easy
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | array | [golang](./algorithms/118_pascals_triangle/main.go)| easy
-|169|[Majority element](https://leetcode-cn.com/problems/majority-element/) | array | [golang](./algorithms/169_majority_element/main.go)|easy
+|169|[Majority element](https://leetcode-cn.com/problems/majority-element/) | array | [golang](./algorithms/169_majority_element/main.go)| easy
+|179|[Largest Number](https://leetcode.com/problems/largest-number/) | array | [golang](./algorithms/179_largest_number/main.go)| easy
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/) | array | [golang](./algorithms/189_rotate_array/main.go)|easy
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/) | array | [golang](./algorithms/283_move_zeroes/main.go)|easy
 
@@ -105,6 +106,12 @@ LeetCode golang
 |---| ----- | ---------- |---------- |---------- |
 
 
-# 11. Breadth First Search
+# 12. Breadth First Search
 | # | Title |  tags  | Solution  |Difficulty  |
 |---| ----- | ---------- |---------- |---------- |
+
+
+# 13. Sliding Window
+| # | Title |  tags  | Solution  |Difficulty  |
+|---| ----- | ---------- |---------- |---------- |
+|003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | hash/sliding window | [golang](./algorithms/003_longest_substring_without_repeating_characters/main.go)|easy
