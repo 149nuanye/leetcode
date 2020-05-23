@@ -61,7 +61,9 @@ LeetCode golang
 |014|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | string | [golang](./algorithms/014_longest_common_prefix/main.go) | easy
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | string | [golang](./algorithms/151_reverse_words/main.go)| medium
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/) | string | [golang](./algorithms/344_reverse_string/main.go)| easy
+|395|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/) | string | [golang](./algorithms/395_longest_substring_with_at_least_k_repeating_characters/main.go)|Easy
 |415|[Add Strings](https://leetcode.com/problems/add-strings/) | string | [golang](./algorithms/415_add_strings/main.go)|Easy
+
 
 
 # 7. tree
@@ -104,6 +106,8 @@ LeetCode golang
 # 11. Depth First Search
 | # | Title |  tags  | Solution  |Difficulty  |
 |---| ----- | ---------- |---------- |---------- |
+|106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | DFS | [golang](./algorithms/106_construct_binary_tree_from_inorder_and_postorder_traversal/main.go)| easy
+|114|[Sum of Two Integers](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | DFS | [golang](./algorithms/114_flatten_binary_tree_to_linked_list/main.go)| easy
 
 
 # 12. Breadth First Search
