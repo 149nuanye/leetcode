@@ -20,6 +20,7 @@ LeetCode golang
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/) | array | [golang](./algorithms/189_rotate_array/main.go)|easy
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/) | array | [golang](./algorithms/283_move_zeroes/main.go)|easy
 
+
 # 2. list
 | # | Title |  tags  | Solution  | Difficulty  |
 |---| ----- | ---------- |---------- |---------- |
@@ -32,6 +33,7 @@ LeetCode golang
 |083|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/) |  list |[golang](./algorithms/083_remove_duplicates_from_sorted_list/main.go)|Easy
 |086|[Partition List](https://leetcode.com/problems/partition-list/description/) |  list |[golang](./algorithms/086_partition_list/main.go)|medium
 |141|[Linked list Cycle](https://leetcode-cn.com/problems/linked-list-cycle/) |  list |[golang](./algorithms/141_linked_list_cycle/main.go)| easy
+|142|[Linked list Cycle II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) |  list |[golang](./algorithms/142_linked_list_cycle_ii/main.go)| easy
 |147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/) |  list |[golang](./algorithms/147_insertion_sort_list/main.go)| medium
 |148|[Sort List](https://leetcode.com/problems/sort-list/) |  list |[golang](./algorithms/148_sort_list/main.go)| medium
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) |  list |[golang](./algorithms/160_intersection_of_two_linked_lists/main.go)|easy
@@ -65,7 +67,6 @@ LeetCode golang
 |415|[Add Strings](https://leetcode.com/problems/add-strings/) | string | [golang](./algorithms/415_add_strings/main.go)|Easy
 
 
-
 # 7. tree
 | # | Title |  tags  | Solution  |Difficulty  |
 |---| ----- | ---------- |---------- |---------- |
@@ -90,6 +91,7 @@ LeetCode golang
 | # | Title |  tags  | Solution  |Difficulty  |
 |---| ----- | ---------- |---------- |---------- |
 |069|[sqrtx](https://leetcode.com/problems/sqrtx/) | Binary Search | [golang](./algorithms/069_sqrtx/main.go)| easy
+|287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | array | [golang](./algorithms/287_find_the_duplicate_number/main.go)| easy
 
 # 10. Math
 | # | Title |  tags  | Solution  |Difficulty  |
