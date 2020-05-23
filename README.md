@@ -114,4 +114,10 @@ LeetCode golang
 # 13. Sliding Window
 | # | Title |  tags  | Solution  |Difficulty  |
 |---| ----- | ---------- |---------- |---------- |
-|003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | hash/sliding window | [golang](./algorithms/003_longest_substring_without_repeating_characters/main.go)|easy
+|003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | hash/sliding window | [golang](./algorithms/003_longest_substring_without_repeating_characters/main.go)| medium
+
+
+# 14. Backtracking
+| # | Title |  tags  | Solution  |Difficulty  |
+|---| ----- | ---------- |---------- |---------- |
+|017|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | backtracking | [golang](./algorithms/017_letter_combinations_of_a_phone_number/main.go)| medium
