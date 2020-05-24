@@ -53,11 +53,24 @@ func maxTreeDepth(node *TreeNode, parentMax int, treeMax *int) {
 	}
 }
 
-func maxDepth(root *TreeNode) int {
+func maxDepthDemo(root *TreeNode) int {
 	max := 0
 	parentMax := 0
 	maxTreeDepth(root, parentMax, &max)
 	return max
+}
+
+// DFS
+func maxDepth(root *TreeNode) int {
+	if root == nil {
+		return 0
+	}
+	left := maxDepth(root.Left)
+	right := maxDepth(root.Right)
+	if left > right {
+		return left + 1
+	}
+	return right + 1
 }
 
 func main() {
