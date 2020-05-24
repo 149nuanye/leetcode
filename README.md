@@ -129,6 +129,7 @@ LeetCode golang
 | # | Title |  tags  | Solution  |Difficulty  |
 |---| ----- | ---------- |---------- |---------- |
 |017|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | backtracking | [golang](./algorithms/017_letter_combinations_of_a_phone_number/main.go)| medium
+|131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | backtracking | [golang](./algorithms/131_palindrome_partitioning/main.go)| medium
 
 
 # 15. Heap
