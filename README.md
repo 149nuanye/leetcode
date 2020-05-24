@@ -74,7 +74,7 @@ LeetCode golang
 |100|[Same Tree](https://leetcode.com/problems/same-tree/) | tree | [golang](./algorithms/100_same_tree/main.go)| easy
 |101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | tree | [golang](./algorithms/101_symmetric_tree/main.go)| easy
 |104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | tree | [golang](./algorithms/104_maximum_depth_of_binary_tree/main.go)| easy
-|105|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | tree/BFS | [golang](./algorithms/105_minimum_depth_of_binary_tree/main.go)| easy
+|111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | tree | [golang](./algorithms/111_minimum_depth_of_binary_tree/main.go)| easy
 |112|[Path Sum](https://leetcode.com/problems/path-sum/) | tree/DFS | [golang](./algorithms/112_path_sum/main.go)| easy
 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | BFS | [golang](./algorithms/236_lowest_common_ancestor_of_a_binary_tree/main.go)| easy
 
