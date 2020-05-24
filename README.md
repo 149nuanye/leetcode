@@ -38,7 +38,7 @@ LeetCode golang
 |148|[Sort List](https://leetcode.com/problems/sort-list/) |  list |[golang](./algorithms/148_sort_list/main.go)| medium
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) |  list |[golang](./algorithms/160_intersection_of_two_linked_lists/main.go)|easy
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | list |[golang](./algorithms/206_reverse_linked_list/main.go) |easy
-|328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | list |[golang](./algorithms/328_odd_even_linked_list/main.go) |easy
+|328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | list |[golang](./algorithms/328_odd_even_linked_list/main.go) |medium
 
 
 # 3. stack
@@ -86,6 +86,7 @@ LeetCode golang
 |053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Dynamic Programming | [golang](./algorithms/053_maximum_subarray/main.go)|easy
 |070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Dynamic Programming | [golang](./algorithms/070_climbing_stairs/main.go)| easy
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Dynamic Programming | [golang](./algorithms/121_best_time_to_buy_and_sell_stock/main.go)| easy
+|152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Dynamic Programming | [golang](./algorithms/152_maximum_product_subarray/main.go)| medium
 |198|[House Robber](https://leetcode.com/problems/house-robber/) | Dynamic Programming | [golang](./algorithms/198_house_robber/main.go)| easy
 
 # 9. Binary Search
