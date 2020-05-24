@@ -81,7 +81,7 @@ LeetCode golang
 # 8. Dynamic Programming
 | # | Title |  tags  | Solution  |Difficulty  |
 |---| ----- | ---------- |---------- |---------- |
-|005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Dynamic Programming | [golang](./algorithms/005_longest_palindromic_substring/main.go)|medium
+|005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Dynamic Programming | [golang](./algorithms/005_longest_palindromic_substring/main.go)| medium
 |032|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | Dynamic Programming | [golang](./algorithms/032_longest_valid_parentheses/main.go)|hard
 |053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Dynamic Programming | [golang](./algorithms/053_maximum_subarray/main.go)|easy
 |070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Dynamic Programming | [golang](./algorithms/070_climbing_stairs/main.go)| easy
