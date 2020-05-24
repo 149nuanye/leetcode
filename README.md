@@ -112,11 +112,13 @@ LeetCode golang
 |---| ----- | ---------- |---------- |---------- |
 |106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | DFS | [golang](./algorithms/106_construct_binary_tree_from_inorder_and_postorder_traversal/main.go)| easy
 |114|[Sum of Two Integers](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | DFS | [golang](./algorithms/114_flatten_binary_tree_to_linked_list/main.go)| easy
+|129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | DFS | [golang](./algorithms/129_sum_root_to_leaf_numbers/main.go)| easy
 
 
 # 12. Breadth First Search
 | # | Title |  tags  | Solution  |Difficulty  |
 |---| ----- | ---------- |---------- |---------- |
+|127|[Word Ladder](https://leetcode.com/problems/word-ladder/) | DFS | [golang](./algorithms/127_word_ladder/main.go)| medium
 
 
 # 13. Sliding Window
