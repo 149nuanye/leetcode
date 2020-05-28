@@ -139,3 +139,8 @@ LeetCode golang
 | # | Title |  tags  | Solution  |Difficulty  |
 |---| ----- | ---------- |---------- |---------- |
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | heap | [golang](./algorithms/215_kth_largest_element_in_an_array/main.go)| medium
+
+# 16. Greedy
+| # | Title |  tags  | Solution  |Difficulty  |
+|---| ----- | ---------- |---------- |---------- |
+|122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Dynamic Programming | [golang](./algorithms/121_best_time_to_buy_and_sell_stock_2/main.go)| easy
