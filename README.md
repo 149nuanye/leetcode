@@ -86,6 +86,7 @@ LeetCode golang
 |053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Dynamic Programming | [golang](./algorithms/053_maximum_subarray/main.go)|easy
 |070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Dynamic Programming | [golang](./algorithms/070_climbing_stairs/main.go)| easy
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Dynamic Programming | [golang](./algorithms/121_best_time_to_buy_and_sell_stock/main.go)| easy
+|139|[Word Break](https://leetcode.com/problems/word-break/) | Dynamic Programming | [golang](./algorithms/139_word_break/main.go)| medium
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Dynamic Programming | [golang](./algorithms/152_maximum_product_subarray/main.go)| medium
 |198|[House Robber](https://leetcode.com/problems/house-robber/) | Dynamic Programming | [golang](./algorithms/198_house_robber/main.go)| easy
 
