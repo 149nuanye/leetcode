@@ -120,6 +120,7 @@ LeetCode golang
 # 12. Breadth First Search
 | # | Title |  tags  | Solution  |Difficulty  |
 |---| ----- | ---------- |---------- |---------- |
+|103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | DFS | [golang](./algorithms/103_binary_tree_zigzag_level_order_traversal/main.go)| medium
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/) | DFS | [golang](./algorithms/127_word_ladder/main.go)| medium
 
 
