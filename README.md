@@ -82,8 +82,9 @@ LeetCode golang
 | # | Title |  tags  | Solution  |Difficulty  |
 |---| ----- | ---------- |---------- |---------- |
 |005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Dynamic Programming | [golang](./algorithms/005_longest_palindromic_substring/main.go)| medium
-|032|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | Dynamic Programming | [golang](./algorithms/032_longest_valid_parentheses/main.go)|hard
-|053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Dynamic Programming | [golang](./algorithms/053_maximum_subarray/main.go)|easy
+|032|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | Dynamic Programming | [golang](./algorithms/032_longest_valid_parentheses/main.go)| hard
+|053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Dynamic Programming | [golang](./algorithms/053_maximum_subarray/main.go)| easy
+|062|[Unique Paths](https://leetcode.com/problems/unique-paths/) | Dynamic Programming | [golang](./algorithms/062_unique_paths/main.go)| medium
 |070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Dynamic Programming | [golang](./algorithms/070_climbing_stairs/main.go)| easy
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Dynamic Programming | [golang](./algorithms/121_best_time_to_buy_and_sell_stock/main.go)| easy
 |139|[Word Break](https://leetcode.com/problems/word-break/) | Dynamic Programming | [golang](./algorithms/139_word_break/main.go)| medium
