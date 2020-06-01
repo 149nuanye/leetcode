@@ -95,6 +95,7 @@ LeetCode golang
 | # | Title |  tags  | Solution  |Difficulty  |
 |---| ----- | ---------- |---------- |---------- |
 |069|[sqrtx](https://leetcode.com/problems/sqrtx/) | Binary Search | [golang](./algorithms/069_sqrtx/main.go)| easy
+|162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/) | Binary Search | [golang](./algorithms/162_find_peak_element/main.go)| easy
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | array | [golang](./algorithms/287_find_the_duplicate_number/main.go)| easy
 
 # 10. Math
