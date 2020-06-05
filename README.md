@@ -90,6 +90,7 @@ LeetCode golang
 |139|[Word Break](https://leetcode.com/problems/word-break/) | Dynamic Programming | [golang](./algorithms/139_word_break/main.go)| medium
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Dynamic Programming | [golang](./algorithms/152_maximum_product_subarray/main.go)| medium
 |198|[House Robber](https://leetcode.com/problems/house-robber/) | Dynamic Programming | [golang](./algorithms/198_house_robber/main.go)| easy
+|300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Dynamic Programming | [golang](./algorithms/300_longest_increasing_subsequence/main.go)| medium
 
 # 9. Binary Search
 | # | Title |  tags  | Solution  |Difficulty  |
