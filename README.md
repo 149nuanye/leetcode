@@ -56,7 +56,8 @@ LeetCode golang
 # 5. hash
 | # | Title |  tags  | Solution  |Difficulty  |
 |---| ----- | ---------- |---------- |---------- |
-|001|[Two Sum](https://leetcode.com/problems/two-sum/) | hash | [golang](./algorithms/001_two_sum/main.go)|easy
+|001|[Two Sum](https://leetcode.com/problems/two-sum/) | hash | [golang](./algorithms/001_two_sum/main.go)| easy
+|128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | hash | [golang](./algorithms/128_longest_consecutive_sequence/main.go)| easy
 
 # 6. string
 | # | Title |  tags  | Solution  |Difficulty  |
