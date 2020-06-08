@@ -149,4 +149,5 @@ LeetCode golang
 # 16. Greedy
 | # | Title |  tags  | Solution  |Difficulty  |
 |---| ----- | ---------- |---------- |---------- |
-|122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Dynamic Programming | [golang](./algorithms/121_best_time_to_buy_and_sell_stock_2/main.go)| easy
+|122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Greedy | [golang](./algorithms/122_best_time_to_buy_and_sell_stock_2/main.go)| easy
+|134|[Gas Station](https://leetcode.com/problems/gas-station/) | Greedy | [golang](./algorithms/134_gas_station/main.go)| medium
