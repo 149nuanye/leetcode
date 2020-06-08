@@ -132,7 +132,7 @@ LeetCode golang
 | # | Title |  tags  | Solution  |Difficulty  |
 |---| ----- | ---------- |---------- |---------- |
 |003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | hash/sliding window | [golang](./algorithms/003_longest_substring_without_repeating_characters/main.go)| medium
-
+|076|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | hash/sliding window | [golang](./algorithms/076_minimum_window_substring/main.go)| medium
 
 # 14. Backtracking
 | # | Title |  tags  | Solution  |Difficulty  |
