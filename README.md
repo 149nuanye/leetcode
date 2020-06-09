@@ -45,18 +45,19 @@ LeetCode golang
 | # | Title |  tags  | Solution  | Difficulty  |
 |---| ----- | ---------- |---------- |---------- |
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | stack | [golang](./algorithms/020_valid_parentheses/main.go) | easy
-|150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | stack | [golang](./algorithms/150_evaluate_reverse_polish_notation/main.go)|medium
+|150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | stack | [golang](./algorithms/150_evaluate_reverse_polish_notation/main.go)| medium
 |155|[Min Stack](https://leetcode.com/problems/min-stack/) | stack | [golang](./algorithms/155_min_stack/main.go)|easy
 
 # 4. queue
 | # | Title |  tags  | Solution  |Difficulty  |
 |---| ----- | ---------- |---------- |---------- |
-|239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | queue | [golang](./algorithms/239_sliding_window_maximum/main.go)|hard
+|239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | queue | [golang](./algorithms/239_sliding_window_maximum/main.go)| hard
 
 # 5. hash
 | # | Title |  tags  | Solution  |Difficulty  |
 |---| ----- | ---------- |---------- |---------- |
 |001|[Two Sum](https://leetcode.com/problems/two-sum/) | hash | [golang](./algorithms/001_two_sum/main.go)| easy
+|049|[Group Anagrams](https://leetcode.com/problems/group-anagrams/) | hash | [golang](./algorithms/049_group_anagrams/main.go)| medium
 |128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | hash | [golang](./algorithms/128_longest_consecutive_sequence/main.go)| easy
 
 # 6. string
