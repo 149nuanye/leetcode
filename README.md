@@ -106,6 +106,7 @@ LeetCode golang
 |---| ----- | ---------- |---------- |---------- |
 |007|[Reverse Integerr](https://leetcode.com/problems/reverse-integer/) | Math | [golang](./algorithms/007_reverse_integer/main.go)|easy
 |009|[Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Math | [golang](./algorithms/009_palindrome_number/main.go)|easy
+|050|[Pow(x, n)](https://leetcode.com/problems/powx-n/) | Math | [golang](./algorithms/050_powx_n/main.go)|medium
 |136|[Single Number](https://leetcode.com/problems/single-number/) | Math | [golang](./algorithms/136_single_number/main.go)|easy
 |172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | Math | [golang](./algorithms/172_factorial_trailing_zeroes/main.go)|easy
 |190|[Reverse Bits](https://leetcode-cn.com/problems/reverse-bits/) | Math | [golang](./algorithms/190_reverse_bits/main.go)|easy
