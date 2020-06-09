@@ -5,6 +5,7 @@ LeetCode golang
 | # | Title |  tags  | Solution  | Difficulty  |
 |---| ----- | ---------- |---------- |---------- |
 |004|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | array | [golang](./algorithms/004_median_of_two_sorted_arrays/main.go)| hard
+|011|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | array | [golang](./algorithms/011_container_with_most_water/main.go)| medium
 |015|[3Sum](https://leetcode.com/problems/3sum/) | array | [golang](./algorithms/015_3sum/main.go)| medium
 |026|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | array | [golang](./algorithms/026_remove_duplicates/main.go)|easy
 |033|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | array | [golang](./algorithms/033_search_in_rotated/main.go)|medium
@@ -141,8 +142,8 @@ LeetCode golang
 | # | Title |  tags  | Solution  |Difficulty  |
 |---| ----- | ---------- |---------- |---------- |
 |017|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | backtracking | [golang](./algorithms/017_letter_combinations_of_a_phone_number/main.go)| medium
+|022|Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | backtracking | [golang](./algorithms/022_generate_parentheses/main.go)| medium
 |131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | backtracking | [golang](./algorithms/131_palindrome_partitioning/main.go)| medium
-
 
 # 15. Heap
 | # | Title |  tags  | Solution  |Difficulty  |
