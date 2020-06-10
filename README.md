@@ -61,6 +61,7 @@ LeetCode golang
 |049|[Group Anagrams](https://leetcode.com/problems/group-anagrams/) | hash | [golang](./algorithms/049_group_anagrams/main.go)| medium
 |128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | hash | [golang](./algorithms/128_longest_consecutive_sequence/main.go)| easy
 
+
 # 6. string
 | # | Title |  tags  | Solution  |Difficulty  |
 |---| ----- | ---------- |---------- |---------- |
@@ -89,6 +90,7 @@ LeetCode golang
 |053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Dynamic Programming | [golang](./algorithms/053_maximum_subarray/main.go)| easy
 |062|[Unique Paths](https://leetcode.com/problems/unique-paths/) | Dynamic Programming | [golang](./algorithms/062_unique_paths/main.go)| medium
 |070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Dynamic Programming | [golang](./algorithms/070_climbing_stairs/main.go)| easy
+|091|[Decode Ways](https://leetcode.com/problems/decode-ways/) | Dynamic Programming | [golang](./algorithms/091_decode_ways/main.go)| medium
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Dynamic Programming | [golang](./algorithms/121_best_time_to_buy_and_sell_stock/main.go)| easy
 |139|[Word Break](https://leetcode.com/problems/word-break/) | Dynamic Programming | [golang](./algorithms/139_word_break/main.go)| medium
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Dynamic Programming | [golang](./algorithms/152_maximum_product_subarray/main.go)| medium
@@ -129,7 +131,6 @@ LeetCode golang
 | # | Title |  tags  | Solution  |Difficulty  |
 |---| ----- | ---------- |---------- |---------- |
 |103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | DFS | [golang](./algorithms/103_binary_tree_zigzag_level_order_traversal/main.go)| medium
-|127|[Word Ladder](https://leetcode.com/problems/word-ladder/) | DFS | [golang](./algorithms/127_word_ladder/main.go)| medium
 
 
 # 13. Sliding Window
