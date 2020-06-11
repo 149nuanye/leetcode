@@ -123,6 +123,7 @@ LeetCode golang
 |---| ----- | ---------- |---------- |---------- |
 |106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | DFS | [golang](./algorithms/106_construct_binary_tree_from_inorder_and_postorder_traversal/main.go)| medium
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | DFS | [golang](./algorithms/114_flatten_binary_tree_to_linked_list/main.go)| medium
+|124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | DFS | [golang](./algorithms/124_binary_tree_maximum_path_sum/main.go)| hard
 |129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | DFS | [golang](./algorithms/129_sum_root_to_leaf_numbers/main.go)| medium
 |1123|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/) | DFS | [golang](./algorithms/1123_lowest_common_ancestor_of_deepest_leaves/main.go)| medium
 
