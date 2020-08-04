@@ -1,5 +1,6 @@
 LeetCode golang
 ========
+readme.md
 
 # 1. array
 | # | Title |  tags  | Solution  | Difficulty  |
